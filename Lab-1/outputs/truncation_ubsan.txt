@@ -1,0 +1,8 @@
+]633;E;echo "=== COMPILATION: UBSan ===";f53b7535-4cca-4472-9d98-6bd199d6c393]633;C=== COMPILATION: UBSan ===
+Compilation completed.
+
+=== RUNTIME ===
+integer_truncation.c:10:9: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int'
+Original value: 300
+After conversion: 44
+Overflow value: -2147483648

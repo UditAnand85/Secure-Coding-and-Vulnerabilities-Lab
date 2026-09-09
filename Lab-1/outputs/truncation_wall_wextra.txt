@@ -1,0 +1,11 @@
+]633;E;echo "=== COMPILATION: -Wall -Wextra ===";f53b7535-4cca-4472-9d98-6bd199d6c393]633;C=== COMPILATION: -Wall -Wextra ===
+integer_truncation.c: In function ‘main’:
+integer_truncation.c:5:9: warning: unused variable ‘unused_value’ [-Wunused-variable]
+    5 |     int unused_value = 50; // this value is not used in our actuall code so it can cause vulnerability why is detected by .Wall .Wextra
+      |         ^~~~~~~~~~~~
+Compilation completed.
+
+=== RUNTIME ===
+Original value: 300
+After conversion: 44
+Overflow value: -2147483648
